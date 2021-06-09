@@ -7,7 +7,7 @@ export default Service.extend({
   init() {
     this._super(...arguments);
 
-    this.googlePackages = this.googlePackages || ['corechart', 'bar', 'line', 'scatter'];
+    this.googlePackages = this.googlePackages || ['corechart', 'bar', 'line', 'scatter','gantt','histogram'];
     this.defaultOptions = this.defaultOptions || {
       animation: {
         duration: 500,
